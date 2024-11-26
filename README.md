@@ -1,24 +1,25 @@
 # nao_sound
 
-two programs to record sound from your local microphone and nao robot. (uses python 2.7 for NAOqi compatibility reasons)
+two programs to record sound from your local microphone and nao robot.
 
 # **Audio Recording Utilities**
 
-This repository contains two Python programs for recording audio:
-1. **Recording from a local microphone using `sounddevice` and `scipy.io.wavfile`**
-2. **Recording audio from a NAO robot and saving it locally**
+This repository contains three Python programs for recording audio:
+1. **Recording from a local microphone using `sounddevice` and `scipy.io.wavfile`** with python 2.7
+2. **Recording from a local microphone using `sounddevice` and `scipy.io.wavfile`** with python 3.11
+3. **Recording audio from a NAO robot and saving it locally**
 
 ---
 
 ## **Features**
 
-### Program 1: Local Microphone Audio Recorder
+### Program 1 & 2: Local Microphone Audio Recorder
 - Records audio using a microphone connected to your computer.
 - Allows you to choose the microphone from available audio devices.
 - Stops recording when you press `s` and trims the audio to the actual recorded length.
 - Saves the recording as a WAV file in the current working directory.
 
-### Program 2: NAO Robot Audio Recorder
+### Program 3: NAO Robot Audio Recorder
 - Records audio from a NAO robot's front microphone.
 - Transfers the audio file from the robot to your local machine.
 - Stops recording when you press `s` and trims the audio to the actual recorded length.
@@ -31,6 +32,7 @@ This repository contains two Python programs for recording audio:
 ### **Prerequisites**
 
 - Python 2.7 (required for compatibility with NAOqi)
+- Python 3.11 for sound_record_computer_3_11.py
 - Libraries:
   - `os`
   - `time`
