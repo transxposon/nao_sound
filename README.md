@@ -1,6 +1,6 @@
 # nao_sound
 
-two programs to record sound from your local microphone and nao robot. 
+two programs to record sound from your local microphone and nao robot. (uses python 2.7 for NAOqi compatibility reasons)
 
 # **Audio Recording Utilities**
 
